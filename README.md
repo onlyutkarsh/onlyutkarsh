@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 # ✍️ Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [How to publish Helm 3 charts to GitHub Container Registry](https://www.visualstudiogeeks.com/github/publish-helm-3-charts-to-gcr)
+- [How to publish Helm 3 charts to GitHub Container Registry using GitHub Actions](https://www.visualstudiogeeks.com/github/publish-helm-3-charts-to-gcr)
 - [Publish Helm 3 charts to Azure Container Registry (ACR) using GitHub Actions](https://www.visualstudiogeeks.com/helm/devops/publish-helm-charts-to-acr-using-github-actions)
 - [Helm 3 - CI/CD with Azure DevOps using Azure Container Registry (ACR) and Azure Kubernetes Service (AKS)](https://www.visualstudiogeeks.com/devops/helm/deploying-helm-chart-with-azdo)
 - [Quickly switch Kubernetes cluster and namespaces with kubectx and kubens](https://www.visualstudiogeeks.com/kubernetes/utilities/using-kubectx-kubens)
