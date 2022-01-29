@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I am Utkarsh Shigihalli. I am a Microsoft MVP and I ❤️ open-source, developing tools, [extensions](https://marketplace.visualstudio.com/publishers/onlyutkarsh) and  write [blog](https://www.visualstudiogeeks.com) in my spare time.
+My name is Utkarsh Shigihalli. I am a Microsoft MVP and I ❤️ open-source, developing tools, [extensions](https://marketplace.visualstudio.com/publishers/onlyutkarsh) and  write [blog](https://www.visualstudiogeeks.com) in my spare time.
 
 <!--
 **onlyutkarsh/onlyutkarsh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
