@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I am Utkarsh Shigihalli. I am DevOps consultant currently working for consulting firm in London. I am also a Microsoft MVP. I ❤️ open-source and develop tools, extensions and try to blog in my spare time.
+I am Utkarsh Shigihalli. I am a Microsoft MVP and I ❤️ open-source, developing tools, [extensions](https://marketplace.visualstudio.com/publishers/onlyutkarsh) and  write [blog](https://www.visualstudiogeeks.com) in my spare time.
 
 <!--
 **onlyutkarsh/onlyutkarsh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# ✍️ Blog posts
+# ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Keep your workflow actions up to date using GitHub Dependabot](https://www.visualstudiogeeks.com/github/ensure-your-actions-are-up-to-date)
 - [Setting up Azure Cosmos DB Emulator on Synology NAS](https://www.visualstudiogeeks.com/azure/cosmos/setting-up-cosmos-db-emulator-on-synology)
