@@ -19,9 +19,9 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Policy enforced deployments for your Kubernetes resources](https://www.visualstudiogeeks.com/azure/kubernetes/devops/policy-enforcement-for-k8s)
 - [Keep your workflow actions up to date using GitHub Dependabot](https://www.visualstudiogeeks.com/github/ensure-your-actions-are-up-to-date)
 - [Setting up Azure Cosmos DB Emulator on Synology NAS](https://www.visualstudiogeeks.com/azure/cosmos/setting-up-cosmos-db-emulator-on-synology)
 - [How to publish Helm 3 charts to GitHub Container Registry using GitHub Actions](https://www.visualstudiogeeks.com/github/publish-helm-3-charts-to-gcr)
 - [Publish Helm 3 charts to Azure Container Registry &lpar;ACR&rpar; using GitHub Actions](https://www.visualstudiogeeks.com/helm/devops/publish-helm-charts-to-acr-using-github-actions)
-- [Helm 3 - CI/CD with Azure DevOps using Azure Container Registry &lpar;ACR&rpar; and Azure Kubernetes Service &lpar;AKS&rpar;](https://www.visualstudiogeeks.com/devops/helm/deploying-helm-chart-with-azdo)
 <!-- BLOG-POST-LIST:END -->
