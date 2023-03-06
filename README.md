@@ -19,9 +19,9 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
-- [Trigger a Netlify build every day using GitHub Actions](https://www.visualstudiogeeks.com/github/netlify/trigger-netlify-build-everyday-using-github)
-- [Policy enforced deployments for your Kubernetes resources](https://www.visualstudiogeeks.com/azure/kubernetes/devops/policy-enforcement-for-k8s)
-- [Keep your workflow actions up to date using GitHub Dependabot](https://www.visualstudiogeeks.com/github/ensure-your-actions-are-up-to-date)
-- [Setting up Azure Cosmos DB Emulator on Synology NAS](https://www.visualstudiogeeks.com/azure/cosmos/setting-up-cosmos-db-emulator-on-synology)
-- [How to publish Helm 3 charts to GitHub Container Registry using GitHub Actions](https://www.visualstudiogeeks.com/github/publish-helm-3-charts-to-gcr)
+- [Connecting GitHub Container Registry with Azure Red Hat OpenShift](https://onlyutkarsh.medium.com/connecting-github-container-registry-with-azure-red-hat-openshift-bcd44ab9e563?source=rss-245e2fec4e3b------2)
+- [How to create NFS share on Azure Blob Storage](https://onlyutkarsh.medium.com/how-to-create-nfs-share-azure-blob-storage-dc1a23f6768f?source=rss-245e2fec4e3b------2)
+- [Scanning container vulnerabilities and publishing the results using Trivy in Azure DevOps](https://onlyutkarsh.medium.com/scanning-container-vulnerabilities-and-publishing-the-results-using-trivy-in-azure-devops-4f8906d83f02?source=rss-245e2fec4e3b------2)
+- [Installing NGINX Ingress Operator on Azure RedHat OpenShift](https://onlyutkarsh.medium.com/installing-nginx-ingress-operator-on-azure-redhat-openshift-e44c989310ad?source=rss-245e2fec4e3b------2)
+- [Connecting to Azure Red Hat OpenShift using Service Accounts from Azure DevOps](https://onlyutkarsh.medium.com/connecting-to-azure-red-hat-openshift-from-azure-devops-18eee1634fd9?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
