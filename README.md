@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Creating a KEDA Scaler for Azure Container Apps &lpar;ACA&rpar; using Azure Portal](https://onlyutkarsh.medium.com/creating-a-keda-scaler-for-azure-container-apps-aca-using-azure-portal-0228a88e7e9a?source=rss-245e2fec4e3b------2)
 - [Exploring GitHub Advanced Security in Azure DevOps](https://onlyutkarsh.medium.com/exploring-github-advanced-security-in-azure-devops-f4d8fe565419?source=rss-245e2fec4e3b------2)
 - [Quick way to delete old node_modules folders](https://onlyutkarsh.medium.com/quick-way-to-delete-old-node-modules-folders-2f117c3de1f7?source=rss-245e2fec4e3b------2)
 - [Use a single repository for multiple wikis in Azure DevOps](https://www.visualstudiogeeks.com/azure%20devops/using-single-azdo-repo-for-multiple-wikis)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [Installing NGINX Ingress Operator on Azure RedHat OpenShift](https://onlyutkarsh.medium.com/installing-nginx-ingress-operator-on-azure-redhat-openshift-e44c989310ad?source=rss-245e2fec4e3b------2)
 - [Connecting to Azure Red Hat OpenShift using Service Accounts from Azure DevOps](https://onlyutkarsh.medium.com/connecting-to-azure-red-hat-openshift-from-azure-devops-18eee1634fd9?source=rss-245e2fec4e3b------2)
 - [Azure Red Hat OpenShift: Disable community operators in Operators Hub](https://onlyutkarsh.medium.com/azure-red-hat-openshift-disable-community-operators-in-operators-hub-148ae9d9235d?source=rss-245e2fec4e3b------2)
-- [Azure Red Hat OpenShift — Deleting a user in a proper way](https://onlyutkarsh.medium.com/fix-an-authentication-error-occurred-in-azure-red-hat-openshift-2cce36a1c760?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
