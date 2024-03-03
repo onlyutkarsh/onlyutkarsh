@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [A quick look at Virtual Kubernetes Clusters](https://onlyutkarsh.medium.com/a-quick-look-at-virtual-kubernetes-clusters-4414ae7e2e65?source=rss-245e2fec4e3b------2)
 - [Creating a KEDA Scaler for Azure Container Apps &lpar;ACA&rpar; using Azure Portal](https://onlyutkarsh.medium.com/creating-a-keda-scaler-for-azure-container-apps-aca-using-azure-portal-0228a88e7e9a?source=rss-245e2fec4e3b------2)
 - [Exploring GitHub Advanced Security in Azure DevOps](https://onlyutkarsh.medium.com/exploring-github-advanced-security-in-azure-devops-f4d8fe565419?source=rss-245e2fec4e3b------2)
 - [Quick way to delete old node_modules folders](https://onlyutkarsh.medium.com/quick-way-to-delete-old-node-modules-folders-2f117c3de1f7?source=rss-245e2fec4e3b------2)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [Scanning container vulnerabilities and publishing the results using Trivy in Azure DevOps](https://onlyutkarsh.medium.com/scanning-container-vulnerabilities-and-publishing-the-results-using-trivy-in-azure-devops-4f8906d83f02?source=rss-245e2fec4e3b------2)
 - [Installing NGINX Ingress Operator on Azure RedHat OpenShift](https://onlyutkarsh.medium.com/installing-nginx-ingress-operator-on-azure-redhat-openshift-e44c989310ad?source=rss-245e2fec4e3b------2)
 - [Connecting to Azure Red Hat OpenShift using Service Accounts from Azure DevOps](https://onlyutkarsh.medium.com/connecting-to-azure-red-hat-openshift-from-azure-devops-18eee1634fd9?source=rss-245e2fec4e3b------2)
-- [Azure Red Hat OpenShift: Disable community operators in Operators Hub](https://onlyutkarsh.medium.com/azure-red-hat-openshift-disable-community-operators-in-operators-hub-148ae9d9235d?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
