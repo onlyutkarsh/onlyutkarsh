@@ -24,11 +24,11 @@ Here are some ideas to get you started:
 - [Creating a KEDA Scaler for Azure Container Apps &lpar;ACA&rpar; using Azure Portal](https://onlyutkarsh.medium.com/creating-a-keda-scaler-for-azure-container-apps-aca-using-azure-portal-0228a88e7e9a?source=rss-245e2fec4e3b------2)
 - [Exploring GitHub Advanced Security in Azure DevOps](https://onlyutkarsh.medium.com/exploring-github-advanced-security-in-azure-devops-f4d8fe565419?source=rss-245e2fec4e3b------2)
 - [Quick way to delete old node_modules folders](https://onlyutkarsh.medium.com/quick-way-to-delete-old-node-modules-folders-2f117c3de1f7?source=rss-245e2fec4e3b------2)
-- [Use a single repository for multiple wikis in Azure DevOps](https://www.visualstudiogeeks.com/azure%20devops/using-single-azdo-repo-for-multiple-wikis)
 - [Connecting GitHub Container Registry with Azure Red Hat OpenShift](https://onlyutkarsh.medium.com/connecting-github-container-registry-with-azure-red-hat-openshift-bcd44ab9e563?source=rss-245e2fec4e3b------2)
 - [How to create NFS share on Azure Blob Storage](https://onlyutkarsh.medium.com/how-to-create-nfs-share-azure-blob-storage-dc1a23f6768f?source=rss-245e2fec4e3b------2)
 - [Scanning container vulnerabilities and publishing the results using Trivy in Azure DevOps](https://onlyutkarsh.medium.com/scanning-container-vulnerabilities-and-publishing-the-results-using-trivy-in-azure-devops-4f8906d83f02?source=rss-245e2fec4e3b------2)
 - [Installing NGINX Ingress Operator on Azure RedHat OpenShift](https://onlyutkarsh.medium.com/installing-nginx-ingress-operator-on-azure-redhat-openshift-e44c989310ad?source=rss-245e2fec4e3b------2)
+- [Connecting to Azure Red Hat OpenShift using Service Accounts from Azure DevOps](https://onlyutkarsh.medium.com/connecting-to-azure-red-hat-openshift-from-azure-devops-18eee1634fd9?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
