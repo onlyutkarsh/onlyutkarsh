@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Using 1Password SSH client for commit signing in DevContainers](https://onlyutkarsh.medium.com/using-1password-ssh-client-for-commit-signing-in-devcontainers-f0cb55effa46?source=rss-245e2fec4e3b------2)
 - [Using Workload Identity Federation for Azure DevOps Service Connections](https://onlyutkarsh.medium.com/using-workload-identity-federation-for-azure-devops-service-connections-3aab8a0cf9a3?source=rss-245e2fec4e3b------2)
 - [Running Docker in WSL2 Ubuntu Distro without Docker Desktop](https://onlyutkarsh.medium.com/running-docker-in-wsl2-ubuntu-distro-without-docker-desktop-6ec495e8bb4d?source=rss-245e2fec4e3b------2)
 - [A quick look at Virtual Kubernetes Clusters](https://onlyutkarsh.medium.com/a-quick-look-at-virtual-kubernetes-clusters-4414ae7e2e65?source=rss-245e2fec4e3b------2)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [Connecting GitHub Container Registry with Azure Red Hat OpenShift](https://onlyutkarsh.medium.com/connecting-github-container-registry-with-azure-red-hat-openshift-bcd44ab9e563?source=rss-245e2fec4e3b------2)
 - [How to create NFS share on Azure Blob Storage](https://onlyutkarsh.medium.com/how-to-create-nfs-share-azure-blob-storage-dc1a23f6768f?source=rss-245e2fec4e3b------2)
 - [Scanning container vulnerabilities and publishing the results using Trivy in Azure DevOps](https://onlyutkarsh.medium.com/scanning-container-vulnerabilities-and-publishing-the-results-using-trivy-in-azure-devops-4f8906d83f02?source=rss-245e2fec4e3b------2)
-- [Installing NGINX Ingress Operator on Azure RedHat OpenShift](https://onlyutkarsh.medium.com/installing-nginx-ingress-operator-on-azure-redhat-openshift-e44c989310ad?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
