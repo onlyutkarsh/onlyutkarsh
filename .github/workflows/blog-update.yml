@@ -14,4 +14,4 @@ jobs:
               with: 
                 max_post_count: "10"
                 enable_keepalive: true
-                feed_list: "https://www.visualstudiogeeks.com/atom.xml,http://medium.com/feed/@onlyutkarsh"
+                feed_list: "https://www.visualstudiogeeks.com/feed.xml,http://medium.com/feed/@onlyutkarsh"
