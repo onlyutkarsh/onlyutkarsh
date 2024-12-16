@@ -1,0 +1,434 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "object",
+    "properties": {
+      "flags": {
+        "type": "object",
+        "properties": {
+          "showProfile": {
+            "type": "boolean"
+          },
+          "showSkills": {
+            "type": "boolean"
+          },
+          "showEducation": {
+            "type": "boolean"
+          },
+          "showWork": {
+            "type": "boolean"
+          },
+          "showWorkSummary": {
+            "type": "boolean"
+          },
+          "showAwards": {
+            "type": "boolean"
+          },
+          "showCertifications": {
+            "type": "boolean"
+          },
+          "showPublications": {
+            "type": "boolean"
+          },
+          "showTalks": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "showProfile",
+          "showSkills",
+          "showEducation",
+          "showWork",
+          "showWorkSummary",
+          "showAwards",
+          "showCertifications",
+          "showPublications",
+          "showTalks"
+        ]
+      },
+      "basics": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "picture": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "social": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "network": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "icon": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "network",
+                "title",
+                "url",
+                "icon"
+              ]
+            }
+          }
+        },
+        "required": [
+          "name",
+          "label",
+          "picture",
+          "url",
+          "summary",
+          "social"
+        ]
+      },
+      "interests": {
+        "type": "array",
+        "items": {}
+      },
+      "summary": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "title",
+          "items"
+        ]
+      },
+      "skills": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "title",
+            "items"
+          ]
+        }
+      },
+      "education": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "institution": {
+                  "type": "string"
+                },
+                "university": {
+                  "type": "string"
+                },
+                "website": {
+                  "type": "string"
+                },
+                "degree": {
+                  "type": "string"
+                },
+                "area": {
+                  "type": "string"
+                },
+                "studyType": {
+                  "type": "string"
+                },
+                "startDate": {
+                  "type": "string"
+                },
+                "endDate": {
+                  "type": "string"
+                },
+                "hide": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "institution",
+                "university",
+                "website",
+                "degree",
+                "area",
+                "studyType",
+                "startDate",
+                "endDate",
+                "hide"
+              ]
+            }
+          }
+        },
+        "required": [
+          "title",
+          "items"
+        ]
+      },
+      "work": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "company": {
+              "type": "string"
+            },
+            "website": {
+              "type": "string"
+            },
+            "position": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "startDate": {
+              "type": "string"
+            },
+            "icon": {
+              "type": "string"
+            },
+            "iconWidth": {
+              "type": "number"
+            },
+            "iconHeight": {
+              "type": "number"
+            },
+            "endDate": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "pageBreak": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "company",
+            "website",
+            "position",
+            "location",
+            "startDate",
+            "icon",
+            "iconWidth",
+            "iconHeight",
+            "endDate",
+            "summary"
+          ]
+        }
+      },
+      "awards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "startDate": {
+              "type": "string"
+            },
+            "endDate": {
+              "type": "string"
+            },
+            "awarder": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            },
+            "icon": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "startDate",
+            "endDate",
+            "awarder",
+            "summary",
+            "icon",
+            "url"
+          ]
+        }
+      },
+      "certifications": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "startDate": {
+              "type": "string"
+            },
+            "endDate": {
+              "type": "string"
+            },
+            "awarder": {
+              "type": "string"
+            },
+            "icon": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "startDate",
+            "endDate",
+            "awarder",
+            "icon",
+            "summary"
+          ]
+        }
+      },
+      "publications": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "publisher": {
+                    "type": "string"
+                  },
+                  "releaseDate": {
+                    "type": "string"
+                  },
+                  "deprecated": {
+                    "type": "boolean"
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "summary": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "publisher",
+                  "releaseDate",
+                  "url"
+                ]
+              }
+            }
+          },
+          "required": [
+            "title",
+            "items"
+          ]
+        }
+      },
+      "talks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "showCover": {
+              "type": "boolean"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "date": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "date"
+                ]
+              }
+            }
+          },
+          "required": [
+            "name",
+            "type",
+            "showCover",
+            "items"
+          ]
+        }
+      }
+    },
+    "required": [
+      "flags",
+      "basics",
+      "interests",
+      "summary",
+      "skills",
+      "education",
+      "work",
+      "awards",
+      "certifications",
+      "publications",
+      "talks"
+    ]
+  }
