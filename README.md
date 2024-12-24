@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Using Azure Storage Account as Backend in Pulumi](https://onlyutkarsh.medium.com/using-azure-storage-account-as-backend-in-pulumi-cb65e7c50407?source=rss-245e2fec4e3b------2)
 - [How to set Stack Settings for Azure Web App using Pulumi](https://onlyutkarsh.medium.com/how-to-set-stack-settings-for-azure-web-app-using-pulumi-b97156d55b39?source=rss-245e2fec4e3b------2)
 - [Using 1Password SSH client for commit signing in DevContainers](https://onlyutkarsh.medium.com/using-1password-ssh-client-for-commit-signing-in-devcontainers-f0cb55effa46?source=rss-245e2fec4e3b------2)
 - [Using Workload Identity Federation for Azure DevOps Service Connections](https://onlyutkarsh.medium.com/using-workload-identity-federation-for-azure-devops-service-connections-3aab8a0cf9a3?source=rss-245e2fec4e3b------2)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [Exploring GitHub Advanced Security in Azure DevOps](https://onlyutkarsh.medium.com/exploring-github-advanced-security-in-azure-devops-f4d8fe565419?source=rss-245e2fec4e3b------2)
 - [Exploring GitHub Advanced Security for Azure DevOps](https://www.visualstudiogeeks.com/devops/github/exploring-github-advanced-security-for-ado)
 - [Quick way to delete old node_modules folders](https://onlyutkarsh.medium.com/quick-way-to-delete-old-node-modules-folders-2f117c3de1f7?source=rss-245e2fec4e3b------2)
-- [Use a single repository for multiple wikis in Azure DevOps](https://www.visualstudiogeeks.com/azure%20devops/using-single-azdo-repo-for-multiple-wikis)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
