@@ -3,7 +3,7 @@
     "ResumeSchema": {
       "type": "object",
       "properties": {
-        "schema": {
+        "$schema": {
           "type": "string",
           "default": "https://jsonresume.org/schema/v1.json"
         },
