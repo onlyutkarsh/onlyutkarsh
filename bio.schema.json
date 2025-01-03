@@ -1,434 +1,747 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "BioSchema",
-    "type": "object",
-    "properties": {
-      "flags": {
-        "type": "object",
-        "properties": {
-          "showProfile": {
-            "type": "boolean"
-          },
-          "showSkills": {
-            "type": "boolean"
-          },
-          "showEducation": {
-            "type": "boolean"
-          },
-          "showWork": {
-            "type": "boolean"
-          },
-          "showWorkSummary": {
-            "type": "boolean"
-          },
-          "showAwards": {
-            "type": "boolean"
-          },
-          "showCertifications": {
-            "type": "boolean"
-          },
-          "showPublications": {
-            "type": "boolean"
-          },
-          "showTalks": {
-            "type": "boolean"
-          }
-        },
-        "required": [
-          "showProfile",
-          "showSkills",
-          "showEducation",
-          "showWork",
-          "showWorkSummary",
-          "showAwards",
-          "showCertifications",
-          "showPublications",
-          "showTalks"
-        ]
-      },
-      "basics": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string"
-          },
-          "label": {
-            "type": "string"
-          },
-          "picture": {
-            "type": "string"
-          },
-          "url": {
-            "type": "string"
-          },
-          "summary": {
-            "type": "string"
-          },
-          "social": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "network": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "url": {
-                  "type": "string"
-                },
-                "icon": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "network",
-                "title",
-                "url",
-                "icon"
-              ]
-            }
-          }
-        },
-        "required": [
-          "name",
-          "label",
-          "picture",
-          "url",
-          "summary",
-          "social"
-        ]
-      },
-      "interests": {
-        "type": "array",
-        "items": {}
-      },
-      "summary": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string"
-          },
-          "items": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        },
-        "required": [
-          "title",
-          "items"
-        ]
-      },
-      "skills": {
-        "type": "array",
-        "items": {
+  "$ref": "#/definitions/ResumeSchema",
+  "definitions": {
+    "ResumeSchema": {
+      "type": "object",
+      "properties": {
+        "flags": {
           "type": "object",
           "properties": {
-            "title": {
-              "type": "string"
+            "showCareerSummary": {
+              "type": "boolean",
+              "default": true,
+              "description": "show career summary section"
             },
-            "items": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
+            "showSkills": {
+              "type": "boolean",
+              "default": true,
+              "description": "show skills section"
+            },
+            "showEducation": {
+              "type": "boolean",
+              "default": true,
+              "description": "show education section"
+            },
+            "showWork": {
+              "type": "boolean",
+              "default": true,
+              "description": "show work section"
+            },
+            "showAwards": {
+              "type": "boolean",
+              "default": true,
+              "description": "show awards section"
+            },
+            "showCertifications": {
+              "type": "boolean",
+              "default": true,
+              "description": "show certifications section"
+            },
+            "showPublications": {
+              "type": "boolean",
+              "default": true,
+              "description": "show publications section"
             }
           },
-          "required": [
-            "title",
-            "items"
-          ]
-        }
-      },
-      "education": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string"
-          },
-          "items": {
-            "type": "array",
-            "items": {
+          "additionalProperties": false
+        },
+        "basics": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "name of the person"
+            },
+            "headline": {
+              "type": "string",
+              "description": "headline of the person - e.g. Software Engineer | 10x MVP"
+            },
+            "picture": {
               "type": "object",
               "properties": {
-                "institution": {
-                  "type": "string"
+                "path": {
+                  "type": "string",
+                  "description": "path to the icon - can be a URL or a local path"
                 },
-                "university": {
-                  "type": "string"
+                "width": {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "minimum": 5,
+                  "description": "width of the icon in pixels"
                 },
-                "website": {
-                  "type": "string"
+                "height": {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "minimum": 5,
+                  "description": "height of the icon in pixels"
+                }
+              },
+              "additionalProperties": false,
+              "description": "profile picture"
+            },
+            "personalEmail": {
+              "type": "object",
+              "properties": {
+                "email": {
+                  "type": "string",
+                  "format": "email",
+                  "description": "personal email address"
                 },
-                "degree": {
-                  "type": "string"
-                },
-                "area": {
-                  "type": "string"
-                },
-                "studyType": {
-                  "type": "string"
-                },
-                "startDate": {
-                  "type": "string"
-                },
-                "endDate": {
-                  "type": "string"
-                },
-                "hide": {
-                  "type": "boolean"
+                "hidden": {
+                  "type": "boolean",
+                  "default": false
                 }
               },
               "required": [
-                "institution",
-                "university",
-                "website",
-                "degree",
-                "area",
-                "studyType",
-                "startDate",
-                "endDate",
-                "hide"
-              ]
-            }
-          }
-        },
-        "required": [
-          "title",
-          "items"
-        ]
-      },
-      "work": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "company": {
-              "type": "string"
+                "email"
+              ],
+              "additionalProperties": false,
+              "description": "personal email address"
+            },
+            "workEmail": {
+              "type": "object",
+              "properties": {
+                "email": {
+                  "type": "string",
+                  "format": "email",
+                  "description": "work email address"
+                },
+                "hidden": {
+                  "type": "boolean",
+                  "default": false
+                }
+              },
+              "required": [
+                "email"
+              ],
+              "additionalProperties": false,
+              "description": "work email address"
+            },
+            "phone": {
+              "type": "object",
+              "properties": {
+                "number": {
+                  "type": "string"
+                },
+                "hidden": {
+                  "type": "boolean",
+                  "default": false
+                }
+              },
+              "required": [
+                "number"
+              ],
+              "additionalProperties": false
             },
             "website": {
-              "type": "string"
-            },
-            "position": {
-              "type": "string"
+              "type": "string",
+              "format": "uri",
+              "description": "URL to the personal website"
             },
             "location": {
-              "type": "string"
+              "type": "object",
+              "properties": {
+                "city": {
+                  "type": "string",
+                  "description": "city name"
+                },
+                "hidden": {
+                  "type": "boolean",
+                  "default": false
+                }
+              },
+              "additionalProperties": false
             },
-            "startDate": {
-              "type": "string"
+            "social": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "network": {
+                    "type": "string",
+                    "description": "social network name"
+                  },
+                  "title": {
+                    "type": "string",
+                    "description": "profile display text - e.g. @onlyutkarsh/MyMedium"
+                  },
+                  "username": {
+                    "type": "string",
+                    "description": "username on the network"
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "URL to the profile on the network"
+                  },
+                  "icon": {
+                    "type": "object",
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "description": "path to the icon - can be a URL or a local path"
+                      },
+                      "width": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "minimum": 5,
+                        "description": "width of the icon in pixels"
+                      },
+                      "height": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "minimum": 5,
+                        "description": "height of the icon in pixels"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "hidden": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                },
+                "required": [
+                  "network",
+                  "title",
+                  "username",
+                  "url"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "name"
+          ],
+          "additionalProperties": false,
+          "description": "basic information of the person"
+        },
+        "careerSummary": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "default": "Summary",
+              "description": "display title of the summary"
             },
-            "icon": {
-              "type": "string"
-            },
-            "iconWidth": {
-              "type": "number"
-            },
-            "iconHeight": {
-              "type": "number"
-            },
-            "endDate": {
-              "type": "string"
-            },
-            "summary": {
+            "content": {
               "type": "array",
               "items": {
                 "type": "string"
+              },
+              "minItems": 1,
+              "description": "summary content",
+              "default": [
+                ""
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "description": "summary section"
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
               }
             },
-            "pageBreak": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "company",
-            "website",
-            "position",
-            "location",
-            "startDate",
-            "icon",
-            "iconWidth",
-            "iconHeight",
-            "endDate",
-            "summary"
-          ]
-        }
-      },
-      "awards": {
-        "type": "array",
-        "items": {
+            "required": [
+              "title",
+              "items"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "education": {
           "type": "object",
           "properties": {
+            "flags": {
+              "type": "object",
+              "properties": {
+                "sortBy": {
+                  "type": "string",
+                  "enum": [
+                    "startDate",
+                    "endDate"
+                  ],
+                  "default": "startDate",
+                  "description": "sort items by"
+                },
+                "sortOrder": {
+                  "type": "string",
+                  "enum": [
+                    "asc",
+                    "desc"
+                  ],
+                  "default": "desc",
+                  "description": "sort order of the items"
+                }
+              },
+              "additionalProperties": false
+            },
             "title": {
-              "type": "string"
-            },
-            "startDate": {
-              "type": "string"
-            },
-            "endDate": {
-              "type": "string"
-            },
-            "awarder": {
-              "type": "string"
-            },
-            "summary": {
-              "type": "string"
-            },
-            "icon": {
-              "type": "string"
-            },
-            "url": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "title",
-            "startDate",
-            "endDate",
-            "awarder",
-            "summary",
-            "icon",
-            "url"
-          ]
-        }
-      },
-      "certifications": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "title": {
-              "type": "string"
-            },
-            "startDate": {
-              "type": "string"
-            },
-            "endDate": {
-              "type": "string"
-            },
-            "awarder": {
-              "type": "string"
-            },
-            "icon": {
-              "type": "string"
-            },
-            "summary": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "title",
-            "startDate",
-            "endDate",
-            "awarder",
-            "icon",
-            "summary"
-          ]
-        }
-      },
-      "publications": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "title": {
-              "type": "string"
+              "type": "string",
+              "description": "header text for the section",
+              "default": "Education"
             },
             "items": {
               "type": "array",
               "items": {
                 "type": "object",
                 "properties": {
-                  "name": {
+                  "degree": {
                     "type": "string"
                   },
-                  "publisher": {
+                  "institution": {
                     "type": "string"
                   },
-                  "releaseDate": {
+                  "university": {
                     "type": "string"
                   },
-                  "deprecated": {
-                    "type": "boolean"
+                  "area": {
+                    "type": "string"
+                  },
+                  "studyType": {
+                    "type": "string",
+                    "enum": [
+                      "Bachelors",
+                      "Masters"
+                    ]
+                  },
+                  "startDate": {
+                    "type": "string"
+                  },
+                  "endDate": {
+                    "type": "string"
                   },
                   "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "hidden": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                },
+                "required": [
+                  "degree",
+                  "institution",
+                  "university",
+                  "studyType",
+                  "startDate"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "items"
+          ],
+          "additionalProperties": false
+        },
+        "work": {
+          "type": "object",
+          "properties": {
+            "flags": {
+              "type": "object",
+              "properties": {
+                "sortBy": {
+                  "type": "string",
+                  "enum": [
+                    "company",
+                    "startDate"
+                  ],
+                  "default": "startDate",
+                  "description": "sort items by"
+                },
+                "sortOrder": {
+                  "type": "string",
+                  "enum": [
+                    "asc",
+                    "desc"
+                  ],
+                  "default": "desc",
+                  "description": "sort order of the items"
+                }
+              },
+              "additionalProperties": false
+            },
+            "title": {
+              "type": "string",
+              "description": "header text for the section",
+              "default": "Work Experience"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "company": {
+                    "type": "string"
+                  },
+                  "position": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "startDate": {
+                    "type": "string"
+                  },
+                  "endDate": {
+                    "type": "string"
+                  },
+                  "icon": {
+                    "type": "object",
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "description": "path to the icon - can be a URL or a local path"
+                      },
+                      "width": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "minimum": 5,
+                        "description": "width of the icon in pixels"
+                      },
+                      "height": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "minimum": 5,
+                        "description": "height of the icon in pixels"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "summary": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "hidden": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                },
+                "required": [
+                  "company",
+                  "position",
+                  "location",
+                  "startDate"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "items"
+          ],
+          "additionalProperties": false
+        },
+        "awards": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "header text for the section",
+              "default": "Awards"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "description": "title of the award. e.g. Microsoft MVP"
+                  },
+                  "startDate": {
+                    "type": "string"
+                  },
+                  "endDate": {
+                    "type": "string"
+                  },
+                  "issuer": {
                     "type": "string"
                   },
                   "summary": {
                     "type": "string"
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "hidden": {
+                    "type": "boolean",
+                    "default": false
                   }
                 },
                 "required": [
-                  "name",
-                  "publisher",
-                  "releaseDate",
-                  "url"
-                ]
+                  "title",
+                  "startDate",
+                  "issuer"
+                ],
+                "additionalProperties": false
               }
             }
           },
           "required": [
-            "title",
             "items"
-          ]
-        }
-      },
-      "talks": {
-        "type": "array",
-        "items": {
+          ],
+          "additionalProperties": false
+        },
+        "certifications": {
           "type": "object",
           "properties": {
-            "name": {
-              "type": "string"
+            "title": {
+              "type": "string",
+              "description": "display title of the certification"
             },
-            "type": {
-              "type": "string"
-            },
-            "showCover": {
-              "type": "boolean"
+            "flags": {
+              "type": "object",
+              "properties": {
+                "sortBy": {
+                  "type": "string",
+                  "enum": [
+                    "title",
+                    "startDate",
+                    "issuer"
+                  ],
+                  "default": "startDate",
+                  "description": "sort items by"
+                },
+                "sortOrder": {
+                  "type": "string",
+                  "enum": [
+                    "asc",
+                    "desc"
+                  ],
+                  "default": "desc",
+                  "description": "sort order of the items"
+                }
+              },
+              "additionalProperties": false
             },
             "items": {
               "type": "array",
               "items": {
                 "type": "object",
                 "properties": {
-                  "name": {
+                  "title": {
                     "type": "string"
                   },
-                  "date": {
+                  "startDate": {
                     "type": "string"
+                  },
+                  "endDate": {
+                    "type": "string"
+                  },
+                  "issuer": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "icon": {
+                    "type": "object",
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "description": "path to the icon - can be a URL or a local path"
+                      },
+                      "width": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "minimum": 5,
+                        "description": "width of the icon in pixels"
+                      },
+                      "height": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "minimum": 5,
+                        "description": "height of the icon in pixels"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "hidden": {
+                    "type": "boolean",
+                    "default": false
                   }
                 },
                 "required": [
-                  "name",
-                  "date"
-                ]
+                  "title",
+                  "startDate",
+                  "issuer",
+                  "url"
+                ],
+                "additionalProperties": false
               }
             }
           },
           "required": [
-            "name",
-            "type",
-            "showCover",
+            "title",
             "items"
-          ]
+          ],
+          "additionalProperties": false,
+          "description": "list of certifications"
+        },
+        "publications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "flags": {
+                "type": "object",
+                "properties": {
+                  "sortBy": {
+                    "type": "string",
+                    "enum": [
+                      "name",
+                      "date",
+                      "publisher"
+                    ],
+                    "default": "date",
+                    "description": "sort items by"
+                  },
+                  "sortOrder": {
+                    "type": "string",
+                    "enum": [
+                      "asc",
+                      "desc"
+                    ],
+                    "default": "desc",
+                    "description": "sort order of the items"
+                  },
+                  "showTags": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "show tags. e.g. deprecated, new etc."
+                  },
+                  "showSummary": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "show description of the item"
+                  }
+                },
+                "additionalProperties": false,
+                "description": "flags to control the output of the items"
+              },
+              "title": {
+                "type": "string",
+                "default": "publications",
+                "description": "text for the header - default is 'publications'"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "vscode-extensions",
+                  "azuredevops-extensions",
+                  "github-actions",
+                  "ios-app",
+                  "books",
+                  "articles"
+                ],
+                "description": "type of the publication - vscode-extensions, azuredevops-extensions, github-actions, ios-apps, books, articles"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "description": "name of the publication"
+                    },
+                    "summary": {
+                      "type": "string",
+                      "description": "brief description of the publication"
+                    },
+                    "publisher": {
+                      "type": "string"
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "deprecated": {
+                      "type": "boolean"
+                    },
+                    "tags": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "icon": {
+                      "type": "object",
+                      "properties": {
+                        "path": {
+                          "type": "string",
+                          "description": "path to the icon - can be a URL or a local path"
+                        },
+                        "width": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "minimum": 5,
+                          "description": "width of the icon in pixels"
+                        },
+                        "height": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "minimum": 5,
+                          "description": "height of the icon in pixels"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "hidden": {
+                      "type": "boolean",
+                      "default": false
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "publisher",
+                    "date",
+                    "url"
+                  ],
+                  "additionalProperties": false,
+                  "description": "list of publications"
+                }
+              }
+            },
+            "required": [
+              "type",
+              "items"
+            ],
+            "additionalProperties": false
+          }
         }
-      }
-    },
-    "required": [
-      "flags",
-      "basics",
-      "interests",
-      "summary",
-      "skills",
-      "education",
-      "work",
-      "awards",
-      "certifications",
-      "publications",
-      "talks"
-    ]
-  }
+      },
+      "additionalProperties": false,
+      "description": "resume schema"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
