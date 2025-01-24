@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Publishing Docker Images to Azure Container Registry with Pulumi](https://onlyutkarsh.medium.com/publishing-docker-images-to-azure-container-registry-with-pulumi-a1609d0eaaeb?source=rss-245e2fec4e3b------2)
 - [Deploy an Azure WebApp using Pulumi](https://blog.devgenius.io/deploy-an-azure-webapp-using-pulumi-d900f8c72af5?source=rss-245e2fec4e3b------2)
 - [Using Azure Storage Account as Backend in Pulumi](https://onlyutkarsh.medium.com/using-azure-storage-account-as-backend-in-pulumi-cb65e7c50407?source=rss-245e2fec4e3b------2)
 - [How to set Stack Settings for Azure Web App using Pulumi](https://onlyutkarsh.medium.com/how-to-set-stack-settings-for-azure-web-app-using-pulumi-b97156d55b39?source=rss-245e2fec4e3b------2)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [A quick look at Virtual Kubernetes Clusters](https://onlyutkarsh.medium.com/a-quick-look-at-virtual-kubernetes-clusters-4414ae7e2e65?source=rss-245e2fec4e3b------2)
 - [Creating a KEDA Scaler for Azure Container Apps &lpar;ACA&rpar; using Azure Portal](https://onlyutkarsh.medium.com/creating-a-keda-scaler-for-azure-container-apps-aca-using-azure-portal-0228a88e7e9a?source=rss-245e2fec4e3b------2)
 - [Exploring GitHub Advanced Security in Azure DevOps](https://onlyutkarsh.medium.com/exploring-github-advanced-security-in-azure-devops-f4d8fe565419?source=rss-245e2fec4e3b------2)
-- [Exploring GitHub Advanced Security for Azure DevOps](https://www.visualstudiogeeks.com/devops/github/exploring-github-advanced-security-for-ado)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
