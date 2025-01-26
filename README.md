@@ -19,16 +19,16 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
-- [Publishing Docker Images to Azure Container Registry with Pulumi](https://onlyutkarsh.medium.com/publishing-docker-images-to-azure-container-registry-with-pulumi-a1609d0eaaeb?source=rss-245e2fec4e3b------2)
-- [Deploy an Azure WebApp using Pulumi](https://blog.devgenius.io/deploy-an-azure-webapp-using-pulumi-d900f8c72af5?source=rss-245e2fec4e3b------2)
-- [Using Azure Storage Account as Backend in Pulumi](https://onlyutkarsh.medium.com/using-azure-storage-account-as-backend-in-pulumi-cb65e7c50407?source=rss-245e2fec4e3b------2)
-- [How to set Stack Settings for Azure Web App using Pulumi](https://onlyutkarsh.medium.com/how-to-set-stack-settings-for-azure-web-app-using-pulumi-b97156d55b39?source=rss-245e2fec4e3b------2)
-- [Using 1Password SSH client for commit signing in DevContainers](https://onlyutkarsh.medium.com/using-1password-ssh-client-for-commit-signing-in-devcontainers-f0cb55effa46?source=rss-245e2fec4e3b------2)
-- [Using Workload Identity Federation for Azure DevOps Service Connections](https://onlyutkarsh.medium.com/using-workload-identity-federation-for-azure-devops-service-connections-3aab8a0cf9a3?source=rss-245e2fec4e3b------2)
-- [Running Docker in WSL2 Ubuntu Distro without Docker Desktop](https://onlyutkarsh.medium.com/running-docker-in-wsl2-ubuntu-distro-without-docker-desktop-6ec495e8bb4d?source=rss-245e2fec4e3b------2)
-- [A quick look at Virtual Kubernetes Clusters](https://onlyutkarsh.medium.com/a-quick-look-at-virtual-kubernetes-clusters-4414ae7e2e65?source=rss-245e2fec4e3b------2)
-- [Creating a KEDA Scaler for Azure Container Apps &lpar;ACA&rpar; using Azure Portal](https://onlyutkarsh.medium.com/creating-a-keda-scaler-for-azure-container-apps-aca-using-azure-portal-0228a88e7e9a?source=rss-245e2fec4e3b------2)
-- [Exploring GitHub Advanced Security in Azure DevOps](https://onlyutkarsh.medium.com/exploring-github-advanced-security-in-azure-devops-f4d8fe565419?source=rss-245e2fec4e3b------2)
+- [Exploring GitHub Advanced Security for Azure DevOps](https://www.visualstudiogeeks.com/devops/github/exploring-github-advanced-security-for-ado)
+- [Use a single repository for multiple wikis in Azure DevOps](https://www.visualstudiogeeks.com/azure%20devops/using-single-azdo-repo-for-multiple-wikis)
+- [Creating KEDA Scalar in Azure Container Apps using Azure Portal](https://www.visualstudiogeeks.com/devops/creating-keda-scalar-in-aca-using-azure-portal)
+- [Installing Docker without Docker Desktop on WSL2](https://www.visualstudiogeeks.com/productivity/installing-docker-without-docker-desktop-on-wsl2)
+- [Trigger a Netlify build every day using GitHub Actions](https://www.visualstudiogeeks.com/github/netlify/trigger-netlify-build-everyday-using-github)
+- [Policy enforced deployments for your Kubernetes resources](https://www.visualstudiogeeks.com/azure/kubernetes/devops/policy-enforcement-for-k8s)
+- [Keep your workflow actions up to date using GitHub Dependabot](https://www.visualstudiogeeks.com/github/ensure-your-actions-are-up-to-date)
+- [Setting up Azure Cosmos DB Emulator on Synology NAS](https://www.visualstudiogeeks.com/azure/cosmos/setting-up-cosmos-db-emulator-on-synology)
+- [How to publish Helm 3 charts to GitHub Container Registry using GitHub Actions](https://www.visualstudiogeeks.com/github/publish-helm-3-charts-to-gcr)
+- [Publish Helm 3 charts to Azure Container Registry &lpar;ACR&rpar; using GitHub Actions](https://www.visualstudiogeeks.com/helm/devops/publish-helm-charts-to-acr-using-github-actions)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
