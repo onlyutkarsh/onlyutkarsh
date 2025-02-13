@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Developing Azure Functions in JetBrains Rider](https://onlyutkarsh.medium.com/developing-azure-functions-in-jetbrains-rider-682e21439396?source=rss-245e2fec4e3b------2)
 - [Provisioning Azure OpenAI service using Pulumi](https://onlyutkarsh.medium.com/provisioning-azure-openai-service-using-pulumi-5d539c5fa862?source=rss-245e2fec4e3b------2)
 - [Publishing Docker Images to Azure Container Registry with Pulumi](https://onlyutkarsh.medium.com/publishing-docker-images-to-azure-container-registry-with-pulumi-a1609d0eaaeb?source=rss-245e2fec4e3b------2)
 - [Deploy an Azure WebApp using Pulumi](https://blog.devgenius.io/deploy-an-azure-webapp-using-pulumi-d900f8c72af5?source=rss-245e2fec4e3b------2)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [Using Workload Identity Federation for Azure DevOps Service Connections](https://onlyutkarsh.medium.com/using-workload-identity-federation-for-azure-devops-service-connections-3aab8a0cf9a3?source=rss-245e2fec4e3b------2)
 - [Running Docker in WSL2 Ubuntu Distro without Docker Desktop](https://onlyutkarsh.medium.com/running-docker-in-wsl2-ubuntu-distro-without-docker-desktop-6ec495e8bb4d?source=rss-245e2fec4e3b------2)
 - [A quick look at Virtual Kubernetes Clusters](https://onlyutkarsh.medium.com/a-quick-look-at-virtual-kubernetes-clusters-4414ae7e2e65?source=rss-245e2fec4e3b------2)
-- [Creating a KEDA Scaler for Azure Container Apps &lpar;ACA&rpar; using Azure Portal](https://onlyutkarsh.medium.com/creating-a-keda-scaler-for-azure-container-apps-aca-using-azure-portal-0228a88e7e9a?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
