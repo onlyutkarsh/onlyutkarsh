@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
-- [Developing Azure Functions in JetBrains Rider](https://onlyutkarsh.medium.com/developing-azure-functions-in-jetbrains-rider-682e21439396?source=rss-245e2fec4e3b------2)
+- [Developing Azure Functions with JetBrains Rider](https://onlyutkarsh.medium.com/developing-azure-functions-in-jetbrains-rider-682e21439396?source=rss-245e2fec4e3b------2)
 - [Provisioning Azure OpenAI service using Pulumi](https://onlyutkarsh.medium.com/provisioning-azure-openai-service-using-pulumi-5d539c5fa862?source=rss-245e2fec4e3b------2)
 - [Publishing Docker Images to Azure Container Registry with Pulumi](https://onlyutkarsh.medium.com/publishing-docker-images-to-azure-container-registry-with-pulumi-a1609d0eaaeb?source=rss-245e2fec4e3b------2)
 - [Deploy an Azure WebApp using Pulumi](https://blog.devgenius.io/deploy-an-azure-webapp-using-pulumi-d900f8c72af5?source=rss-245e2fec4e3b------2)
