@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Working with Jupyter Notebooks in VS Code](https://onlyutkarsh.medium.com/working-with-jupyter-notebooks-in-vs-code-2d037ea06bc3?source=rss-245e2fec4e3b------2)
 - [GitHub Copilot for Azure Pricing — A Visual Studio Copilot extension](https://onlyutkarsh.medium.com/github-copilot-for-azure-pricing-a-visual-studio-copilot-extension-4921088d3dae?source=rss-245e2fec4e3b------2)
 - [How to use Azurite in JetBrains Rider](https://onlyutkarsh.medium.com/how-to-use-azurite-in-jetbrains-rider-738451df3964?source=rss-245e2fec4e3b------2)
 - [Developing Azure Functions with JetBrains Rider](https://onlyutkarsh.medium.com/developing-azure-functions-in-jetbrains-rider-682e21439396?source=rss-245e2fec4e3b------2)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [Using Azure Storage Account as Backend in Pulumi](https://onlyutkarsh.medium.com/using-azure-storage-account-as-backend-in-pulumi-cb65e7c50407?source=rss-245e2fec4e3b------2)
 - [How to set Stack Settings for Azure Web App using Pulumi](https://onlyutkarsh.medium.com/how-to-set-stack-settings-for-azure-web-app-using-pulumi-b97156d55b39?source=rss-245e2fec4e3b------2)
 - [Using 1Password SSH client for commit signing in DevContainers](https://onlyutkarsh.medium.com/using-1password-ssh-client-for-commit-signing-in-devcontainers-f0cb55effa46?source=rss-245e2fec4e3b------2)
-- [Using Workload Identity Federation for Azure DevOps Service Connections](https://onlyutkarsh.medium.com/using-workload-identity-federation-for-azure-devops-service-connections-3aab8a0cf9a3?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
