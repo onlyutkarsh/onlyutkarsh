@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [GitHub Copilot Custom Agents: Building Specialized AI Workflows in VS Code](https://onlyutkarsh.medium.com/github-copilot-custom-agents-building-specialized-ai-workflows-in-vs-code-b37bd784e1f5?source=rss-245e2fec4e3b------2)
 - [Shipping VS Code Extensions with Confidence: Automating Releases with GitHub Actions](https://onlyutkarsh.medium.com/shipping-vs-code-extensions-with-confidence-automating-releases-with-github-actions-a3c87b866355?source=rss-245e2fec4e3b------2)
 - [Why SQL Server in a Container is Your New Best Friend for Local Development](https://onlyutkarsh.medium.com/this-is-a-quick-blog-post-on-why-and-how-to-run-sql-server-in-a-docker-container-for-local-f01c64db1a59?source=rss-245e2fec4e3b------2)
 - [Using 1Password SSH agent to authenticate with Git and sign commits](https://onlyutkarsh.medium.com/using-1password-ssh-agent-to-authenticate-with-git-and-sign-commits-87cb95b0006b?source=rss-245e2fec4e3b------2)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [Developing Azure Functions with JetBrains Rider](https://onlyutkarsh.medium.com/developing-azure-functions-in-jetbrains-rider-682e21439396?source=rss-245e2fec4e3b------2)
 - [Provisioning Azure OpenAI service using Pulumi](https://onlyutkarsh.medium.com/provisioning-azure-openai-service-using-pulumi-5d539c5fa862?source=rss-245e2fec4e3b------2)
 - [Publishing Docker Images to Azure Container Registry with Pulumi](https://onlyutkarsh.medium.com/publishing-docker-images-to-azure-container-registry-with-pulumi-a1609d0eaaeb?source=rss-245e2fec4e3b------2)
-- [Deploy an Azure WebApp using Pulumi](https://blog.devgenius.io/deploy-an-azure-webapp-using-pulumi-d900f8c72af5?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
