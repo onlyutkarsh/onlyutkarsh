@@ -37,8 +37,11 @@ Here are some ideas to get you started:
 - [Patch files](https://github.com/marketplace/actions/patch-files) - A simple action to patch JSON files.
 
 ## VS Code extensions
-- [.env Manager](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.envmanager) - Quick and easy way to add entries to your .env file
-- [Git Config User Profiles](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.git-config-user-profiles) - Define multiple git config user profiles and switch them easily using status bar. 
+- [Git Config User Profiles](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.git-config-user-profiles) - Define multiple git config user profiles and switch them easily using status bar.
+- [Mermaid Viewer](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.mermaid-diagram-lens) - View your Mermaid diagrams with independent theming, exports, and focused previews.
+- [VSIX Viewer](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.vsix-viewer) - A simple viewer for VSIX files
+- [.env Manager](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.envmanager) - Quick and easy way to add entries to your .env file.
+
 
 ## Azure DevOps extentions
 - [Export/Import Build Definition](https://marketplace.visualstudio.com/items?itemName=onlyutkarsh.ExportImportBuildDefinition) - A Azure DevOps service extension to export your build definition and then import it in same or another team project (Archived)
