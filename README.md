@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
+- [GitHub Actions Can Now Run Steps in Parallel — Here’s What It Actually Saved Me](https://onlyutkarsh.medium.com/github-actions-can-now-run-steps-in-parallel-heres-what-it-actually-saved-me-247f9d439658?source=rss-245e2fec4e3b------2)
 - [Setting Up Podman Desktop So the Same Containers Work on Both Windows and WSL2](https://onlyutkarsh.medium.com/setting-up-podman-desktop-so-the-same-containers-work-on-both-windows-and-wsl2-3498df47aac1?source=rss-245e2fec4e3b------2)
 - [GitHub Copilot Custom Agents: Building Specialized AI Workflows in VS Code](https://onlyutkarsh.medium.com/github-copilot-custom-agents-building-specialized-ai-workflows-in-vs-code-b37bd784e1f5?source=rss-245e2fec4e3b------2)
 - [Shipping VS Code Extensions with Confidence: Automating Releases with GitHub Actions](https://onlyutkarsh.medium.com/shipping-vs-code-extensions-with-confidence-automating-releases-with-github-actions-a3c87b866355?source=rss-245e2fec4e3b------2)
@@ -28,7 +29,6 @@ Here are some ideas to get you started:
 - [GitHub Copilot for Azure Pricing — A Visual Studio Copilot extension](https://onlyutkarsh.medium.com/github-copilot-for-azure-pricing-a-visual-studio-copilot-extension-4921088d3dae?source=rss-245e2fec4e3b------2)
 - [How to use Azurite in JetBrains Rider](https://onlyutkarsh.medium.com/how-to-use-azurite-in-jetbrains-rider-738451df3964?source=rss-245e2fec4e3b------2)
 - [Developing Azure Functions with JetBrains Rider](https://onlyutkarsh.medium.com/developing-azure-functions-in-jetbrains-rider-682e21439396?source=rss-245e2fec4e3b------2)
-- [Provisioning Azure OpenAI service using Pulumi](https://onlyutkarsh.medium.com/provisioning-azure-openai-service-using-pulumi-5d539c5fa862?source=rss-245e2fec4e3b------2)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
