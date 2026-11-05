@@ -19,16 +19,16 @@ Here are some ideas to get you started:
 
 # ✍🏽 My recent blog posts
 <!-- BLOG-POST-LIST:START -->
-- [GitHub Actions Can Now Run Steps in Parallel — Here’s What It Actually Saved Me](https://onlyutkarsh.medium.com/github-actions-can-now-run-steps-in-parallel-heres-what-it-actually-saved-me-247f9d439658?source=rss-245e2fec4e3b------2)
-- [Setting Up Podman Desktop So the Same Containers Work on Both Windows and WSL2](https://onlyutkarsh.medium.com/setting-up-podman-desktop-so-the-same-containers-work-on-both-windows-and-wsl2-3498df47aac1?source=rss-245e2fec4e3b------2)
-- [GitHub Copilot Custom Agents: Building Specialized AI Workflows in VS Code](https://onlyutkarsh.medium.com/github-copilot-custom-agents-building-specialized-ai-workflows-in-vs-code-b37bd784e1f5?source=rss-245e2fec4e3b------2)
-- [Shipping VS Code Extensions with Confidence: Automating Releases with GitHub Actions](https://onlyutkarsh.medium.com/shipping-vs-code-extensions-with-confidence-automating-releases-with-github-actions-a3c87b866355?source=rss-245e2fec4e3b------2)
-- [Why SQL Server in a Container is Your New Best Friend for Local Development](https://onlyutkarsh.medium.com/this-is-a-quick-blog-post-on-why-and-how-to-run-sql-server-in-a-docker-container-for-local-f01c64db1a59?source=rss-245e2fec4e3b------2)
-- [Using 1Password SSH agent to authenticate with Git and sign commits](https://onlyutkarsh.medium.com/using-1password-ssh-agent-to-authenticate-with-git-and-sign-commits-87cb95b0006b?source=rss-245e2fec4e3b------2)
-- [Working with Jupyter Notebooks in VS Code](https://onlyutkarsh.medium.com/working-with-jupyter-notebooks-in-vs-code-2d037ea06bc3?source=rss-245e2fec4e3b------2)
-- [GitHub Copilot for Azure Pricing — A Visual Studio Copilot extension](https://onlyutkarsh.medium.com/github-copilot-for-azure-pricing-a-visual-studio-copilot-extension-4921088d3dae?source=rss-245e2fec4e3b------2)
-- [How to use Azurite in JetBrains Rider](https://onlyutkarsh.medium.com/how-to-use-azurite-in-jetbrains-rider-738451df3964?source=rss-245e2fec4e3b------2)
-- [Developing Azure Functions with JetBrains Rider](https://onlyutkarsh.medium.com/developing-azure-functions-in-jetbrains-rider-682e21439396?source=rss-245e2fec4e3b------2)
+- [Exploring GitHub Advanced Security for Azure DevOps](https://www.visualstudiogeeks.com/devops/github/exploring-github-advanced-security-for-ado)
+- [Use a single repository for multiple wikis in Azure DevOps](https://www.visualstudiogeeks.com/azure%20devops/using-single-azdo-repo-for-multiple-wikis)
+- [Creating KEDA Scalar in Azure Container Apps using Azure Portal](https://www.visualstudiogeeks.com/devops/creating-keda-scalar-in-aca-using-azure-portal)
+- [Installing Docker without Docker Desktop on WSL2](https://www.visualstudiogeeks.com/productivity/installing-docker-without-docker-desktop-on-wsl2)
+- [Trigger a Netlify build every day using GitHub Actions](https://www.visualstudiogeeks.com/github/netlify/trigger-netlify-build-everyday-using-github)
+- [Policy enforced deployments for your Kubernetes resources](https://www.visualstudiogeeks.com/azure/kubernetes/devops/policy-enforcement-for-k8s)
+- [Keep your workflow actions up to date using GitHub Dependabot](https://www.visualstudiogeeks.com/github/ensure-your-actions-are-up-to-date)
+- [Setting up Azure Cosmos DB Emulator on Synology NAS](https://www.visualstudiogeeks.com/azure/cosmos/setting-up-cosmos-db-emulator-on-synology)
+- [How to publish Helm 3 charts to GitHub Container Registry using GitHub Actions](https://www.visualstudiogeeks.com/github/publish-helm-3-charts-to-gcr)
+- [Publish Helm 3 charts to Azure Container Registry &lpar;ACR&rpar; using GitHub Actions](https://www.visualstudiogeeks.com/helm/devops/publish-helm-charts-to-acr-using-github-actions)
 <!-- BLOG-POST-LIST:END -->
 
 # 🖥️ My publications
